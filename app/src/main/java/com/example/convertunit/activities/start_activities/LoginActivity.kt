@@ -1,6 +1,5 @@
 package com.example.convertunit.activities.start_activities
 
-import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -68,11 +67,18 @@ class LoginActivity : AppCompatActivity() {
 
     private fun actionsButtons () {
         pressLogIn()
+        pressCreateAccount()
     }
 
     private fun pressLogIn () {
         binding.btnLogIn.setOnClickListener {
             verifyDataInput()
+        }
+    }
+
+    private fun pressCreateAccount () {
+        binding.btnCreateAccount.setOnClickListener {
+            startActivity(Intent(context, RegisterActivity::class.java))
         }
     }
 

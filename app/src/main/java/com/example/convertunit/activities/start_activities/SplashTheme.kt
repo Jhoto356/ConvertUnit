@@ -14,6 +14,7 @@ class SplashTheme : AppCompatActivity() {
         TimeUnit.SECONDS.sleep(2)
 
         startActivity(Intent(this, LoginActivity::class.java))
+        finish()
     }
 
 }

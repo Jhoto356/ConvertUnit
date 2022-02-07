@@ -3,6 +3,12 @@
     <string name="app_name">Help Math</string>
     <string name="inputUserName">User name*</string>
     <string name="inputUserPassword">Password*</string>
+    <string name="inputUserPasswordConfirm">Confirm password*</string>
+    <string name="inputUserPasswordBackRest">Backup password*</string>
+    <string name="inputUserPasswordBackRestConfirm">Confirm backup password*</string>
+    <string name="inputUserPinBackUp">Pin code backup</string>
+    <string name="txtTermsAndConditions">I accept the terms and conditions</string>
+    <string name="btnSignIn">Finish register</string>
     <string name="btnLogIn">Log in</string>
     <string name="txtNotAccount">Don´t have account:</string>
     <string name="txtCreateAccount">Create account</string>
