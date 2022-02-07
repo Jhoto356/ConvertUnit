@@ -1,10 +1,14 @@
 <resources>
 
     <string name="app_name">Help Math</string>
-    <string name="inputUserName">User name</string>
-    <string name="inputUserPassword">Password</string>
+    <string name="inputUserName">User name*</string>
+    <string name="inputUserPassword">Password*</string>
     <string name="btnLogIn">Log in</string>
     <string name="txtNotAccount">Don´t have account:</string>
     <string name="txtCreateAccount">Create account</string>
+    <string name="wtfVoid">missing fields to fill </string>
+    <string name="wtfMinCharUserName">The username must have a minimum of 3 characters</string>
+    <string name="wtfMinCharUserPassword">The password must have a minimum of 8 characters</string>
+    <string name="wtfMinCharGeneral">The username must have a minimum of 3 characters and the password must have a minimum of 8 characters</string>
 
 </resources>
