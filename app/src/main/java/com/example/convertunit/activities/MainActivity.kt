@@ -1,4 +1,4 @@
-package com.example.convertunit.start_activities
+package com.example.convertunit.activities
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

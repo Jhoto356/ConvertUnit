@@ -4,7 +4,7 @@
     <item android:drawable="@color/cPrimary"/>
 
     <item android:gravity="center" android:width="150dp" android:height="150dp">
-        <bitmap android:src="@drawable/ic_logo"/>
+        <bitmap android:src="@drawable/logo"/>
     </item>
 
 </layer-list>

@@ -1,9 +1,9 @@
-package com.example.convertunit.start_activities
+package com.example.convertunit.activities.start_activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.convertunit.R
+import com.example.convertunit.activities.MainActivity
 import java.util.concurrent.TimeUnit
 
 class SplashTheme : AppCompatActivity() {
@@ -13,7 +13,7 @@ class SplashTheme : AppCompatActivity() {
 
         TimeUnit.SECONDS.sleep(2)
 
-        startActivity(Intent(this, MainActivity::class.java))
+        startActivity(Intent(this, LoginActivity::class.java))
     }
 
 }

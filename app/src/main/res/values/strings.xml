@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">ConvertUnit</string>
+
+    <string name="app_name">Help Math</string>
+    <string name="inputUserName">User name</string>
+    <string name="inputUserPassword">Password</string>
+    <string name="btnLogIn">Log in</string>
+    <string name="txtNotAccount">Don´t have account:</string>
+    <string name="txtCreateAccount">Create account</string>
+
 </resources>
