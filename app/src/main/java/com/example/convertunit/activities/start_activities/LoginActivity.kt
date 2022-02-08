@@ -61,7 +61,7 @@ class LoginActivity : AppCompatActivity() {
             toastFile.toastyWarning(context, string)
         } else {
             string = getString(R.string.wtfMinCharGeneral)
-            toastFile.toastyWarning(context, string)
+            toastFile.toastyWarning(context, "Debe aceptar los terminos")
         }
     }
 
